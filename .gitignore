@@ -1,0 +1,25 @@
+# Competition data and large intermediates
+data/*
+!data/README.md
+*.wav
+*.mp3
+*.jsonl
+work/
+
+# Python / notebooks
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Models and caches
+*.pt
+*.bin
+*.safetensors
+.cache/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
